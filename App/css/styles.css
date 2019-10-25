@@ -1,0 +1,133 @@
+.sf2v {
+  font-family: 'Archivo Black', sans-serif;
+  padding-right: 15px;
+  font-size: 18px;
+  font-weight: lighter;
+  background-color: white;
+  color: #0405E2; }
+
+.sf2v:hover {
+  color: #413257; }
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 100vh; }
+
+.container {
+  width: 300px;
+  max-height: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid black;
+  -webkit-box-shadow: -1px -1px 18px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 18px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+span {
+  color: #0D56D0; }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%; }
+
+.header-logo {
+  width: 100%;
+  max-width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex; }
+
+.logo-style {
+  padding-top: 10px;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif; }
+
+.title {
+  padding-left: 8px; }
+
+.header-mail {
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  background-color: white;
+  color: #8494AF; }
+
+.header-mail:hover {
+  color: black; }
+
+@font-face {
+  font-family: 'KIA';
+  src: url("../fonts/KIAB.eot");
+  src: local("KIAB"), url("../fonts/KIAB.eot?#iefix") format("embedded-opentype"), url("../fonts/KIAB.woff") format("woff"), url("../fonts/KIAB.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'KIAM';
+  src: url("../fonts/KIAM.eot");
+  src: local("KIAM"), url("../fonts/KIAM.eot?#iefix") format("embedded-opentype"), url("../fonts/KIAM.woff") format("woff"), url("../fonts/KIAM.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.main-area {
+  margin-top: 8px;
+  font-family: 'Archivo Black', sans-serif;
+  line-height: 20px;
+  color: #414EA8; }
+
+.menu-list {
+  margin-top: 5px;
+  color: #414EA8;
+  font-family: 'Russo One', sans-serif;
+  font-weight: lighter; }
+
+a {
+  text-decoration: none;
+  font-size: 11px;
+  background-color: #FFEE01;
+  color: black; }
+
+.second {
+  color: black; }

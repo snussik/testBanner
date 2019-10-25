@@ -1,0 +1,83 @@
+$blue:#8494AF;
+$lightblue:#0D56D0;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.container {
+    width: 300px;
+    max-height: 250px;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: -1px -1px 18px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+* {
+padding: 0;
+margin: 0;
+}
+span {
+    color: $lightblue;
+}
+.header {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+.header-logo {
+    width: 100%;
+    max-width: 55px;
+    height: 55px;
+    display: flex;
+}
+.logo-style {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+.title {
+padding-left: 8px;
+}
+
+.header-mail {
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    background-color: white;
+    color:$blue;
+
+}
+.header-mail:hover{
+    color: black;
+}
+
+
+
+@font-face {
+    font-family: 'KIA';
+    src: url('../fonts/KIAB.eot');
+    src: local('KIAB'),
+    url('../fonts/KIAB.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KIAB.woff') format('woff'),
+    url('../fonts/KIAB.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'KIAM';
+    src: url('../fonts/KIAM.eot');
+    src: local('KIAM'),
+    url('../fonts/KIAM.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KIAM.woff') format('woff'),
+    url('../fonts/KIAM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

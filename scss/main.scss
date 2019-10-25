@@ -1,0 +1,25 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.main-area {
+    margin-top: 8px;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 20px;
+    color:#414EA8;
+}
+.menu-list {
+   margin-top: 5px;
+   color: #414EA8;
+   font-family: 'Russo One', sans-serif;
+   font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    font-size: 11px;
+    background-color: #FFEE01;
+    color: black;
+}
+.second {
+    color: black;
+}
